@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import Icon from '@/components/Icon'
+import MyIcon from '@/components/Icon'
 export default {
   name: 'my-header',
   components: {
-    Icon
+    MyIcon
   },
   props: {
     size: {

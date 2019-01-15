@@ -1,5 +1,5 @@
 <template>
-  <button class="button is-primary" @click="onClick">
+  <button class="button utility color-white bg-color-primary" @click="onClick">
     <slot></slot>
   </button>
 </template>
@@ -16,14 +16,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 button {
   border: 1px solid #eee;
   border-radius: 3px;
   background-color: #ffffff;
   cursor: pointer;
   font-size: 15pt;
-  padding: 3px 10px;
-  margin: 10px;
+  padding: $base-unit 2*$base-unit;
+  margin-top: $base-unit;
+  margin-bottom: $base-unit;
 }
 </style>

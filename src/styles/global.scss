@@ -1,0 +1,101 @@
+
+$black: #000;
+$gray: #5a5a5a;
+$beige: #efefef;
+$off-white: #f5f5f5;
+$white: #fff;
+
+$color-primary: $black !default;
+$color-secondary: $gray !default;
+$color-background: $beige !default;
+
+$base-unit: 10px !default;
+
+$font-family: "Circular Std Medium", Helvetica !default;
+
+@font-face {
+  font-family: "Circular Std Medium";
+  font-weight: normal;
+  src: url("~/assets/fonts/CircularStd-Medium.otf") format("otf");
+}
+
+
+// Body Copy
+// font-family: Circular Std Book
+// font-size: 1.125rem
+// line-height: 1.45
+body {
+  font-size: 16px;
+  line-height: 1.45;
+  font-family: $font-family;
+  // :not(.header),
+  // :not(.subheader),
+  // :not(.utility),
+  & > * {
+    font-size: 1.125rem;
+  }
+}
+
+// Header
+// font-family: Circular Std Medium
+// font-size: 1.75rem
+// line-height: 1.14
+
+.header {
+  font-family: $font-family;
+  font-size: 1.75rem;
+  line-height: 1.14;
+  font-weight: normal;
+}
+
+
+// Subheader
+// font-family: Circular Std Medium
+// font-size: 1.25rem
+// line-height: 1.2
+
+.subheader {
+  font-family: $font-family;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+
+// Utility Copy
+// font-family: Circular Std Medium
+// font-size: .95rem
+// line-height: 1.2
+// letter-spacing: 0.05em
+.utility {
+  font-size: .95rem;
+  line-height: 1.2;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+
+
+// color classes
+// 
+.color-primary {
+  color: $color-primary;
+}
+ 
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-white {
+  color: $white;
+}
+.bg-color-primary {
+  background-color: $color-primary;
+}
+.bg-color-background {
+  background-color: $color-background;
+}
+
+
+

@@ -1,17 +1,20 @@
 <template>
   <figure>
-    <img :src="src" />
+    <img :src="src" :alt="alt" />
   </figure>
 </template>
 
 <script>
-// REQUIRED: npm install svg-inline-loader pug --save-dev
 export default {
   name: 'my-icon',
   props: {
     size: {
       type: Number,
       default: 150
+    },
+    alt: {
+      type: String,
+      default: 'placeholder-image'
     }
   },
   computed: {
