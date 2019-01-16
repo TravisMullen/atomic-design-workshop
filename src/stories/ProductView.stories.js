@@ -30,13 +30,26 @@ const primaryItems = [
   }
 ]
 
+const sizes = [
+  {
+    value: '5.2',
+    title: '5.2 fl oz',
+    name: '5.2'
+  },
+  {
+    value: '10.8',
+    title: '10.8 fl oz',
+    name: '10.8'
+  }
+]
+
 storiesOf('ProductView', module)
   .add('show jawn', () => ({
     data: function () {
       return {
         title: 'Amazing Face Cleanser',
         price: '$32',
-        sizes: ['5.2 fl oz', '10.8 fl oz'],
+        sizes,
         image: 100,
         orderFrequency: primaryItems
       }
