@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import MyIcon from '@/components/Icon'
+// import MyIcon from '@/components/Icon'
 export default {
   name: 'my-header',
-  components: {
-    MyIcon
-  },
+  // components: {
+  //   MyIcon
+  // },
   props: {
     size: {
       type: Number,
