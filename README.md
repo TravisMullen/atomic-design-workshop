@@ -5,9 +5,19 @@
 npm install
 ```
 
+### Compiles stories for development 
+```
+npm run storybook:serve 
+```
+
+### Compiles stories for production 
+```
+npm run storybook:build 
+```
+
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve 
 ```
 
 ### Compiles and minifies for production
