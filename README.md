@@ -5,12 +5,12 @@
 npm install
 ```
 
-### Compiles stories for development 
+### Compiles and hot-reloads **stories** for development 
 ```
 npm run storybook:serve 
 ```
 
-### Compiles stories for production 
+### Compiles **stories** for production 
 ```
 npm run storybook:build 
 ```
